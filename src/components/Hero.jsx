@@ -4,9 +4,10 @@ import search from '../assets/search.svg'
 import play from '../assets/play_circle_outline.svg'
 import right from '../assets/chevron_right.svg'
 
+
 const Hero = (style) => {
   return (
-    <div className='flex flex-row'>
+    <div className='flex flex-row mb-[8.4rem]'>
       <section className='px-4 py-8 lg:ml-[142px]'>
         <h2 className='text-[32px] font-bold text-center lg:text-left lg:font-extrabold lg:text-8xl lg:px-5 lg:py-16 text-[#2F241F]'>The kind of <br/><span className="text-[#817253]">furniture</span> you have <br/>been looking for</h2>
         <div className='px-4 flex flex-row gap-4'>
